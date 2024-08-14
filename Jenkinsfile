@@ -4,7 +4,7 @@ pipeline {
     environment {
         REGISTRY = 'docker.io'
         IMAGE_NAME = 'souravlayek/remote-fetch'
-        GIT_REPO = 'https://github.com/souravlayek/remotefetch.git'
+        GIT_REPO = 'git@github.com:souravlayek/remotefetch.git'
         DOCKER_CREDENTIALS_ID = 'dockerhub' // Set your Docker credentials ID
         GIT_CREDENTIAL_ID = 'jenkinsSSH'
     }
