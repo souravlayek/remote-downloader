@@ -1,6 +1,6 @@
 # RemoteFetch
 
-[Logo](./logo.png)
+![Logo](./logo.png)
 
 **RemoteFetch** is a robust remote downloading solution designed to fetch and store files from any location. Whether you’re dealing with direct URLs or torrents, RemoteFetch manages your downloads efficiently and securely. With a user-friendly web interface, RemoteFetch streamlines remote file management, making your digital life more organized and accessible.
 
