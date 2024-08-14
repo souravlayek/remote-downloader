@@ -44,7 +44,8 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry("", "${DOCKER_CREDENTIALS_ID}") {
-                        docker.image("${IMAGE_NAME}:${TAG}").push()
+                        // Add latest tag
+                        docker.image("${IMAGE_NAME}:${TAG}").push('latest')
                     }
                 }
             }
