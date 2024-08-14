@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REGISTRY = 'index.docker.io/v2'
+        REGISTRY = 'index.docker.io/v2/'
         IMAGE_NAME = 'souravlayek/remote-fetch'
         GIT_REPO = 'https://github.com/souravlayek/remotefetch.git'
         DOCKER_CREDENTIALS_ID = 'dockerhub' // Set your Docker credentials ID
