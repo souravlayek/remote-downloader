@@ -1,0 +1,9 @@
+node_modules/
+output/
+.DS_Store
+.DS_Store?
+*.swp
+*.swo
+*.sqlite
+.next
+.git
